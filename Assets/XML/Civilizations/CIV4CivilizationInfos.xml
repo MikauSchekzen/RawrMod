@@ -1233,10 +1233,6 @@
 					<LeaderName>LEADER_ZARA_YAQOB</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
-				<Leader>
-					<LeaderName>LEADER_CELDOR_ZONFIRE</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
 			</Leaders>
 			<DerivativeCiv>NONE</DerivativeCiv>
 			<CivilizationSelectionSound>AS3D_ETHIOPIA_SELECT</CivilizationSelectionSound>
@@ -3812,6 +3808,101 @@
 			<Leaders>
 				<Leader>
 					<LeaderName>LEADER_SHAKA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+			<DerivativeCiv>NONE</DerivativeCiv>
+			<CivilizationSelectionSound>AS3D_ZULU_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_ZULU_ORDER</CivilizationActionSound>
+		</CivilizationInfo>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_SKYLAND</Type>
+			<Description>Skyland</Description>
+			<ShortDescription>Sky</ShortDescription>
+			<Adjective>Skylandian</Adjective>
+			<Civilopedia>Rawr?</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_LIGHT_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_SKYLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_EUROPEAN</UnitArtStyleType>
+			<bPlayable>1</bPlayable>
+			<bAIPlayable>1</bAIPlayable>
+			<Cities>
+				<City>Lodi Dodi</City>
+				<City>Rendal</City>
+				<City>Eelic</City>
+				<City>Terat</City>
+				<City>Taito</City>
+				<City>Loniconi</City>
+				<City>Afgers</City>
+				<City>Pownor</City>
+				<City>Kekli</City>
+				<City>Fardo</City>
+				<City>Crags</City>
+				<City>Razora</City>
+				<City>Letni</City>
+				<City>Pilopalotta</City>
+				<City>Vevei</City>
+				<City>Darman</City>
+				<City>Kolnos</City>
+				<City>Arwre</City>
+				<City>Otjean</City>
+				<City>Lewijt</City>
+				<City>Tioynto</City>
+				<City>Tayywy</City>
+				<City>Kahuruk</City>
+				<City>Potiwto</City>
+				<City>Jeriewo</City>
+				<City>Nifaogo</City>
+				<City>Nitgib</City>
+				<City>Weirdnaf</City>
+				<City>Tweio</City>
+			</Cities>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+					<BuildingType>BUILDING_ZULU_IKHANDA</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+					<UnitType>UNIT_ZULU_IMPI</UnitType>
+				</Unit>
+			</Units>
+			<FreeUnitClasses>
+				<FreeUnitClass>
+					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+					<iFreeUnits>1</iFreeUnits>
+				</FreeUnitClass>
+			</FreeUnitClasses>
+			<FreeBuildingClasses>
+				<FreeBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bFreeBuildingClass>1</bFreeBuildingClass>
+				</FreeBuildingClass>
+			</FreeBuildingClasses>
+			<FreeTechs>
+				<FreeTech>
+					<TechType>TECH_THE_WHEEL</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+				<FreeTech>
+					<TechType>TECH_HUNTING</TechType>
+					<bFreeTech>1</bFreeTech>
+				</FreeTech>
+			</FreeTechs>
+			<DisableTechs/>
+			<InitialCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
+				<CivicType>CIVIC_PAGANISM</CivicType>
+			</InitialCivics>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_CELDOR_ZONFIRE</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
